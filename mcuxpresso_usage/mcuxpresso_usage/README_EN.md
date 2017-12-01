@@ -87,51 +87,48 @@ Select which language develop your project opened panel. If you select LPCOpen p
 
 Type your project name in **Project name:** label then click **Next** button.
 
-
 <p align="center">
     <img src="img/yeni_pro5.png">
 </p>
 
->Asıl önemli kısım şimdi başlamaktadır. Projeye ekleyeceğimiz **CMSIS Core Library** yi aşağıdaki ekrandan seçiyoruz. Ancak ekrandan seçtiğimiz kütüphanenin **Project Explorer**'a eklenmiş olması gerekmektedir. Bu ekleme işlemini ilk proje kütüphaneleri import ederken yaptığımız için o kütüphane hangisi ise O'nu seçmeliyiz.
+This section is important. You will see **Wizard properties page** and select which library you want to use in **CMSIS Core library**. You need to be careful when select core library because you have already imported your library in workspace before. I have already imported **CMSISv2p00_LPC11xx and CMSISv1p30_LPC17xx** these libraries into my workspace.
 
 <p align="center">
     <img src="img/yeni_pro6.png">
 </p>
 
-Seçimimizi yaptıktan sonra karşımıza çıkan ekran dan **None** bölümünü seçerek **Next** tuşuna basabiliriz. Projenin oluşturulma evresi tamamlanmıştır. Oluşan projeyi **Project Explorer**'da görebilirsiniz.
+After select core library click **Next** and you can simply see your project into your workspace.
 
 <p align="center">
     <img src="img/yeni_pro7.png">
 </p>
 
-Oluşturulan Proje aşağıdaki gibi **Project Explorer**'da görülmektedir.
 
+Simply you can see your project that in **Project Explorer**.
 <p align="center"> 
     <img src="img/yeni_pro8.png">
 </p>
 
-Oluşturulan projenin tamamlanmasının ardından **Build** işlemini gerçekleştirebiliriz.
+After all that time you can build your project, shown below images.
 
 <p align="center">
     <img src="img/yeni_pro9.png">
 </p>
 
-Bu adımların sonunda proje oluşturulmuş ve eklediğimiz libraryler **(CMSIS)** projemize eklenmiştir.
+These steps finished and your simple project has ready for development with in **CMSIS** library.
 
 
-### Projeye External Kütüphane Ekleme
+### Add External Library
 
->Projeniz için external libraryler geliştirmiş olabilirsiniz. Bunları projenize nasıl ekleyeceğiniz konusunda bilgilendireceğim. Bu adımlar external bir kütüphane eklemek için kullanılır. Yukarıdaki adımlar sizin işinizi görüyor ise bu adımı atlayabilirsiniz.
+Most of our development times we create external or internal library for our purpose usage. Some libraries must be generic and use where you want. So we need to add these libraies our main projects. This section demonstrate you how to import **external library** to your project.
 
-**Project Explorer** içerisinde ki oluşturduğumuz projemizin üzerine gelip **Properties** sekmesini seçiyoruz ve ardından açılan **C/C++ Build** sekmesinin altındaki **Settings** 
-
-
+Firstly, right click on your project and go to **Properties** than go to **Settings** label under **C/C++ Build** section.
 
 Properties             |  C/C++ Build
 :-------------------------:|:-------------------------:
 ![Alt text](img/yeni_pro8.png) | ![Alt text](img/yeni_pro10.png)
 
-**Settings** bölümünden seçilen sekmede **Tool Settings** bölümündeki **Include** sekmesine **Include paths (-l)** bölümüne **Add** ile ekleme yapıyoruz. Include dosyalarımızın bulunduğu path bilgilerini ekliyoruz.
+After selected **Settings** label than select Includes under **Tool Settings** than add your library path in **Include paths (-l)** label with **Add** button. You can simply see how to add library paths as below images.
 
 <p align="center">
     <img src="img/yeni_pro11.png">
@@ -149,30 +146,34 @@ Properties             |  C/C++ Build
     <img src="img/yeni_pro14.png">
 </p>
 
+After all that you can **Build** your project and see has any error or other things you need.
 
-Ekleme işlemleri bittikten sonra projeyi **Build** edebilirsiniz.
+### Debug Project
 
-### Projenin Debug Edilmesi
+Development time all developers need to **Debug** so this section demonstrate how to debug **MCUXpresso** project.
 
-
-Oluşturulan projenin debug edilebilmesi için **Project Explorer**'da bulunan projemizi seçiyoruz ve ardından **Quick Start** panelinde bulunan **Debug** sekmesine tıklıyoruz ve ardından **Jlink**'in çalışmasını bekliyoruz.
+In order to debug the created project we select our project in **Project Explorer** and then click on the **Debug ** tab in the **Quick Start** panel and then wait for **Jlink** to run.
 
 <p align="center">
     <img src="img/yeni_pro15.png">
 </p>
 
+The first time we run the JLink screen will continue to select the future and we are ready to use the screen by clicking on **Accept** button.
+In order to be able to install the program, the energy of the cycle should be given your device circuit.
 
-İlk çalıştırmamız da JLink ekranı gelecektir seçip devam ediyoruz ve çıkan ekrandan **Accept** butonuna tıklayarak kullanıma hazır ediyoruz.
-Programın yüklenebilmesi için devremizin enerjisinin verilmesi gerekmektedir.
 
 <p align="center">
     <img src="img/yeni_pro16.png">
 </p>
 
-Debug başarılı olursa **main** fonksiyonun da **breakpoint** e düşecektir. Ardından altta bulunan **Resume All Debug** butonuna basarak projeyi çalıştırabilirsiniz.
+If **Debug** succeeds, the **main** function will also fall to **breakpoint**. After that 
+Debug başarılı olursa **main** fonksiyonun da **breakpoint** e düşecektir. Then you can run the project by pressing the **Resume All Debug** button at the bottom.
 
 <p align="center">
     <img src="img/yeni_pro17.png">
 </p>
 
+I hope you enjoy reading.
+
+Have a nice coding...
 
