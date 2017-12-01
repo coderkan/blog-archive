@@ -8,10 +8,8 @@ I would like to give you some information about using **MCUXpresso IDE** that bu
 
 Firstly, you need to install **MCUXpresso IDE** from their official [websites]((https://www.nxp.com/support/developer-resources/run-time-software/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?tab=Design_Tools_Tab)).
 
-### Proje oluşturulması
 
-
-#### Import Library
+### Import Library
 
 I will explain how to include a library into our workspace in our projects. If you use to **LPC** series you need to install **CMSIS Library** to your workspaces. Easily you can download this libraries from my github page for [LPC11xx](https://github.com/coderkan/CMSISv2p00_LPC11xx/tree/master) , [LPC17xx](https://github.com/coderkan/CMSISv1p30_LPC17xx)
 
