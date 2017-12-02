@@ -1,45 +1,51 @@
-# Hex Dosyasının MCU üzerine yüklenmesi
+# Load Hex file to LPC with JFlash-Lite
 
-Burada kullanacağımız program **Jlink** ile beraber gelen **JFlash-Lite** programıdır.
+Hi everyone,
 
-Programı arama sekmesinden arayıp çalıştırıyoruz.
+This chapter will demonstrate you how to load hex file to **LPC** mcu's.  I will use **JFlash-Lite** product of **Jlink** program.
+
+If you are working on Windows OS, open home and search **JFlash Lite** then click it. 
 
 <p align="center">
     <img src="img/arama.png">
 </p>
 
-Açılan uygulama aşağıdaki gibidir.
+After clicked **JFlash Lite** icon then opened small JFlash Lite GUI. It is easy to use UI. Select **Device** and **Interface** which your connection established for it and **Speed**.
 
 <p align="center">
     <img src="img/program.png">
 </p>
 
-Buradan işlemcinin marka ve modelini seçiyoruz. 
+Select device in **Device** section and click **OK**.
 
 <p align="center">
     <img src="img/select_mcu.png">
 </p>
 
-Seçilen işlemcinin ardından hangi **Interface** üzerinden programlanmmasının yapılacağı bilgisi seçiliyor.
+There are connection interface types that you can select **SWD/JTAG/FINE/2 WIRE JTAG/**.
 
 <p align="center">
     <img src="img/select_interface.png">
 </p>
 
-Seçilen interface den sonra **Ok** butonuna basarak yükleme uygulamasını çalıştırmış oluyoruz. 
+After select all device, interface and speed then click **OK** button and will see main GUI to load hex code. Detailed image as below.
 
 <p align="center">
     <img src="img/open_part.png">
 </p>
 
-Yüklemek için **.hex .axf** formatında ki dosyaları seçiyoruz. 
+To load **.hex .axf** etc format files we need to select file and go to path in **Data File** section. 
 
 <p align="center">
     <img src="img/select_hex.png">
 </p>
 
-Hex dosyamızı da yükledikten sonra **Erase Chip** ya da **Program Device** butonlarına basarak ister chip in hafızasını sileriz istersek hex dosyamızı chip hafızasına kaydederiz.
+After selected hex file all steps almost finished. If you have finished these steps you can erase chip memory with **Erase Chip** or load hex to device memory with **Program Device** button. 
 
 <p align="center">
     <img src="img/finish_prog.png">
 </p>
+
+I hope you enjoy reading.
+
+Have a nice coding.
