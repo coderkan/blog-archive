@@ -17,7 +17,25 @@ So first alternative to use Operation System is **Ubuntu** from Linux side. Duri
 </p>
 
 
+I have some googling then I'm not happy working with Ubuntu. Because Development time passing is not good that I expected. Arter googling I have decided to use Arch based Linux distro. I Just want to a distro includes tools for Android Developments. For example in OS have Android Studio, Android SDK, Inkscape, Gimp etc I need when I develop an application. First important thing for me is to work faster. I found a distro that based on Arch Linux is [BBQLinux](http://bbqlinux.org/). 
+
+<p align="center">
+    <img src="img/arch-logo.png">
+</p>
+
+BBQLinux is made for Android Developers. 
+
+BBQLinux is user-friendly Linux distrobution for Android Developers. The biggest pros of using BBQLinux is you don't need to reinstall the latest release of BBQLinux. Because this is using **Rolling Release Development Model** which means it is getting continually updated and upgraded.
+lt's also fully compatible Arch Linux packages because of based on Arch Linux. This is an Open Source Project so you can download and contribute on [Github](https://github.com/bbqlinux ).
 
 <p align="center">
     <img src="img/bbqlinux.png">
 </p>
+
+This Operation System is awesome. Because this distro designed for Android Developers. You don't need to install other things for Development.
+
+Just update and go ahead Development. I will share my experiences. First thing is I love in The  BBQLinux is **stability**. It has good work on this issue. I can work on long hours and work good performance. I can work on more than one Android Studio Project and working well. This is big happiness for me. Other distros can not work well this issues that I experienced.
+
+I hope you enjoy reading.
+
+Have a nice coding...
