@@ -36,6 +36,8 @@ This Operation System is awesome. Because this distro designed for Android Devel
 
 Just update and go ahead Development. I will share my experiences. First thing is I love in The  BBQLinux is **stability**. It has good work on this issue. I can work on long hours and work good performance. I can work on more than one Android Studio Project and working well. This is big happiness for me. Other distros can not work well this issues that I experienced.
 
+I hope you use this distro and say to me your experience.
+
 I hope you enjoy reading.
 
 Have a nice coding...
