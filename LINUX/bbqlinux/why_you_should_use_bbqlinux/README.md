@@ -2,9 +2,9 @@
 
 Hi everyone,
 
-I have developed applications like **Desktop**, *Embedded**, **Android** for 3 years and have heavily developing Android development on [AntriKod Software](www.antrikod.com) for amount 2 years. When I developed Android application, I have used various Operation System like Windows, Ubuntu, Mint and the last one is **BBQLinux**. 
+I have developed applications like **Desktop**, **Embedded**, **Android** for 3 years and have heavily developing Android development on [AntriKod Software](www.antrikod.com) for amount 2 years. When I developed Android application, I have used various Operation System like Windows, Ubuntu, Mint and the last one is **BBQLinux**. 
 
-I would like to say something Operation Systems that I used. Firstly, I have used **Windows** Operation System like everyone. But this issiue has not satisfied because it is normally slower when I use **Android Studio** and not a good performance for **Android Development** for me. I always think that alternative ways that I used programs, application, OS to try out. 
+I would like to say something Operation Systems that I used. Firstly, I have used **Windows** Operation System like everyone. But this issue has not satisfied because it is normally slower when I use **Android Studio** and not a good performance for **Android Development** for me. I always think that alternative ways that I used programs, application, OS to try out. 
 
 <p align="center">
     <img src="img/windows-logo.png">
@@ -17,7 +17,7 @@ So first alternative to use Operation System is **Ubuntu** from Linux side. Duri
 </p>
 
 
-I have some googling then I'm not happy working with Ubuntu. Because Development time passing is not good that I expected. Arter googling I have decided to use Arch based Linux distro. I Just want to a distro includes tools for Android Developments. For example in OS have Android Studio, Android SDK, Inkscape, Gimp etc I need when I develop an application. First important thing for me is to work faster. I found a distro that based on Arch Linux is [BBQLinux](http://bbqlinux.org/). 
+I have some googling then I'm not happy working with Ubuntu. Because Development time passing is not good that I expected. After googling I have decided to use Arch based Linux distro. I just want to a distro includes tools for Android Developments. For example in OS have Android Studio, Android SDK, Inkscape, Gimp etc I need when I develop an application. First important thing for me is to work faster. I found a distro that based on Arch Linux is [BBQLinux](http://bbqlinux.org/). 
 
 <p align="center">
     <img src="img/arch-logo.png">
