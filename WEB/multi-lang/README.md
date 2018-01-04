@@ -1,4 +1,4 @@
-# Multi Languages With JQuery
+# Multi Language With JQuery
 
 Hi everyone,
 
