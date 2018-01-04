@@ -14,7 +14,7 @@ For more detail about **JQuery** you can search and find out more information vi
 
 Lots of time we need to add multi language our web projects. I will demonstrate how to add simply it.  
 
-Let go to code!!!
+Let's go to code!!!
 
 Firstly we have to add **JQuery** libraries, you can easy to find on official [website](https://code.jquery.com/). 
 I will use below jquery library.
