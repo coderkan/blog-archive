@@ -14,9 +14,11 @@ PHPMailer is a classic email sending library for PHP that developing under LGPL 
 
 Once you learned what PHPMailer is we can download latest release from PHPMailer releases [page](https://github.com/PHPMailer/PHPMailer/releases). I will download latest release and add your project directory. You can also use adding your project directory because of scripting library. 
 
+
  <p align="center">
-    <img src="img/project-page.png">
+    <img src="img/project_page.png">
 </p>
+
 
 
 After that we can do a form for giving values from user. 
@@ -39,9 +41,11 @@ After that we can do a form for giving values from user.
 
 This code will show you like below image. 
 
+
  <p align="center">
-    <img src="img/form-preview.png">
+    <img src="img/form_preview.png">
 </p>
+
 
 Then we create a file called **sendmail.php** in project folders. Then we type this code.
 
